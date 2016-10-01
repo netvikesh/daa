@@ -1,5 +1,6 @@
-package net.vikesh;
+package net.vikesh.sort;
 
+import net.vikesh.sort.InsertionSort;
 import org.junit.Assert;
 import org.junit.Test;
 

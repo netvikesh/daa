@@ -1,4 +1,4 @@
-package net.vikesh;
+package net.vikesh.sort;
 
 /**
  * @author vikesh

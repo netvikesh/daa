@@ -1,5 +1,6 @@
-package net.vikesh;
+package net.vikesh.sort;
 
+import net.vikesh.sort.MergeSort;
 import org.junit.Assert;
 import org.junit.Test;
 
