@@ -28,15 +28,15 @@ public class MergeSort {
         //length of Left Array is q-p
         //If p is 0 and q is 5, the left sub array size is 6 = 5-0 + 1
         //If p is > 0 say p is 3 and q is 8. They array size is 5 = p - q
-        int n1 = q == 0 ? q - p + 1 : p - q; //Remember these are lengths
-        int n2 = r - p;
+        int n1 = p == 0 ? q - p + 1 : q - p; //Remember these are lengths
+        int n2 = r - q;
         int[] L = new int[n1 + 1];
         int[] R = new int[n2 + 1];
         for (int i = 0; i < n1; i++) {
             L[i] = A[p + i];
         }
 
-        for (int j = 1; j < n2; j++) {
+        for (int j = 0; j < n2; j++) {
             R[j] = A[q + j];
         }
         L[n1] = Integer.MAX_VALUE;
